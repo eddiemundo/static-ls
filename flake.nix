@@ -24,7 +24,7 @@
         haskellNix.overlay
         (final: prev: {
           # This overlay adds our project to pkgs
-          optim-jboProject =
+          static-lsProject =
             final.haskell-nix.project' {
               src = ./.;
               compiler-nix-name = "ghc96";
@@ -46,7 +46,7 @@
         })
       ];
 
-      flake = pkgs.optim-jboProject.flake {
+      flake = pkgs.static-lsProject.flake {
         # This adds support for `nix build .#js-unknown-ghcjs:optim-jbo:exe:optim-jbo`
         # crossPlatforms = p: [p.ghcjs];
       };

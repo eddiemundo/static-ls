@@ -63,6 +63,7 @@
     in  
       flake // {
         # Built by `nix build .`
+        packages.static-ls = flake.packages."optim-jbo:exe:optim-jbo";
         packages.default = flake.packages."static-ls:exe:static-ls";
 
         hydraJobs = { };

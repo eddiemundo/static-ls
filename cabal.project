@@ -9,35 +9,47 @@ source-repository-package
     type: git
     location: https://github.com/oberblastmeister/tree-sitter-simple.git
     tag: 309ac26ecbb94e6f534bff5c4c5c6a50808397e0
-    subdir: tree-sitter-simple
+    --sha256: sha256-8i2NYbILmGDH+0EIQ/UzRoyuonWzyAqFD06vbjEJH2g=
+    subdir: 
+      tree-sitter-simple
+      tree-sitter-haskell
+      tree-sitter-ast
+      haskell-ast
+      text-range
 
-source-repository-package
-    type: git
-    location: https://github.com/oberblastmeister/tree-sitter-simple.git
-    tag: 309ac26ecbb94e6f534bff5c4c5c6a50808397e0
-    subdir: tree-sitter-haskell
 
-source-repository-package
-    type: git
-    location: https://github.com/oberblastmeister/tree-sitter-simple.git
-    tag: 309ac26ecbb94e6f534bff5c4c5c6a50808397e0
-    subdir: tree-sitter-ast
-
-source-repository-package
-    type: git
-    location: https://github.com/oberblastmeister/tree-sitter-simple.git
-    tag: 309ac26ecbb94e6f534bff5c4c5c6a50808397e0
-    subdir: haskell-ast
-
-source-repository-package
-    type: git
-    location: https://github.com/oberblastmeister/tree-sitter-simple.git
-    tag: 309ac26ecbb94e6f534bff5c4c5c6a50808397e0
-    subdir: text-range
+--source-repository-package
+--    type: git
+--    location: https://github.com/oberblastmeister/tree-sitter-simple.git
+--    tag: 309ac26ecbb94e6f534bff5c4c5c6a50808397e0
+--    subdir: tree-sitter-haskell
+--    --sha256: sha256-8i2NYbILmGDH+0EIQ/UzRoyuonWzyAqFD06vbjEJH2g=
+--
+--source-repository-package
+--    type: git
+--    location: https://github.com/oberblastmeister/tree-sitter-simple.git
+--    tag: 309ac26ecbb94e6f534bff5c4c5c6a50808397e0
+--    subdir: tree-sitter-ast
+--    --sha256: sha256-8i2NYbILmGDH+0EIQ/UzRoyuonWzyAqFD06vbjEJH2g=
+--
+--source-repository-package
+--    type: git
+--    location: https://github.com/oberblastmeister/tree-sitter-simple.git
+--    tag: 309ac26ecbb94e6f534bff5c4c5c6a50808397e0
+--    subdir: haskell-ast
+--    --sha256: sha256-DnIa/hn6mQDrTAoBlWlHn2saWE1EIUzTMEPObDGJPGE=
+--
+--source-repository-package
+--    type: git
+--    location: https://github.com/oberblastmeister/tree-sitter-simple.git
+--    tag: 309ac26ecbb94e6f534bff5c4c5c6a50808397e0
+--    subdir: text-range
+--    --sha256: sha256-DnIa/hn6mQDrTAoBlWlHn2saWE1EIUzTMEPObDGJPGE=
 
 source-repository-package
     type: git
     location: https://github.com/oberblastmeister/tasty-expect.git
     tag: ec14d702660c79a907e9c45812958cd0df0f036f
+    --sha256: sha256-KxunyEutnwLeynUimiIkRe5w/3IdmbD/9hGVi68UVfU=
 
 test-show-details: direct
